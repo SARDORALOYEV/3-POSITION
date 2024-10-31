@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    padding: 55px 0px;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigatsion{
+    display: flex;
+justify-content: space-between;
+}
+.nav__list{
+    gap: 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav__item{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.section__bg{
+    background-image: url("./images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 37px;
+    padding-bottom: 88px;
+}
+.section__title{
+    width: 602px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 auto;
+    
+box-shadow: 16px 18px 28px 0px rgba(255, 255, 255, 0.25);
+background-color: rgb(255, 255, 255);
+}
+.red{
+    color: rgb(255, 6, 6);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.green{
+    width: 237px;
+height: 209px;
+box-shadow: 0px 22px 27.8px 0px #fff9f940;
+background: #32fb00;
+position: relative;
+display: flex;
+align-items: end;
+padding-left: 56px;
+padding-bottom: 34px;
+}
+.section__container{
+    display: flex;
+    gap: 271px;
+    margin: 0 auto;
+    max-width: 1240px;
+    width: 100%;
+    margin-top: 185px;
+    position: relative;
+}
+.box__red{
+    width: 237px;
+height: 209px;
+    box-shadow: 0px 18px 26.5px 0px rgba(251, 0, 0, 0.25);
+background: rgb(247, 1, 1);
+color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+position: absolute;
+top: -104px;
+left: 119px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.second{
+    left: 418px;
+    width: 411px;
+    height: 209px;
+    border-radius: 100px;
+
+box-shadow: 0px 18px 26.5px 0px rgba(251, 0, 0, 0.25);
+background: rgb(247, 1, 1);
+}
+.threth{
+    left: 900px; 
+}
+.information__text__box{
+    width: 602px;
+    border-radius: 30px;
+box-shadow: 16px 18px 28px 0px rgba(255, 255, 255, 0.25);
+background: #ffffff;
+color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0 auto;
+}
+.section__information{
+    background-color: black;
+    padding-top: 79px;
+}
+.section__wrapper{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 88px;
+    padding-top: 127px;
+}
+.wrapper__item{
+    width: 368px;
+height: 332px;
+background-color: rgb(123, 37, 37);
+padding-bottom: 82px;
+}
+.item__title{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: center;
+text-shadow: 0px 4px 8px white;
+padding-top: 50px;
+padding-bottom: 68px;
+}
+.mintitle{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.second__picture__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two{
+    padding-bottom: 36px;
+}
+.first{
+    margin-left: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__list{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 68px;
+}
+.footer__item{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer{
+    background-color: black;
+    padding-top: 60px;
+    width: 100%;
+    padding-bottom: 212px;
+}
